@@ -1,0 +1,134 @@
+{
+  "product": [{
+      "id": 2,
+      "name": "Sac freeStylee",
+      "reference": "SF10A",
+      "type": "Sacc",
+      "collection": "everywhere",
+      "brand": "Mk",
+      "prduct_status": "Production",
+      "mesures": "25X125",
+      "color": "marron",
+      "picture": "https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "location": "Nabeul",
+      "box": "Carton",
+      "quantity": "15",
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
+    },
+    {
+      "id": 3,
+      "name": "Casual",
+      "reference": "C10",
+      "type": "Sac sport",
+      "collection": "winter",
+      "brand": "Bento",
+      "prduct_status": "Prototype",
+      "mesures": "25X125",
+      "color": "lightgray",
+      "picture": "https://images.pexels.com/photos/45981/pexels-photo-45981.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "location": "Tunis",
+      "box": "Carton",
+      "quantity": "25",
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
+    },
+    {
+      "id": 4,
+      "name": "Sac à main",
+      "reference": "SM11",
+      "type": "Sac à main",
+      "collection": "winter 2020",
+      "brand": "Lital",
+      "prduct_status": "Prototype",
+      "mesures": "25X125",
+      "color": "marron",
+      "picture": "https://img.freepik.com/free-photo/women-bag_1159-798.jpg?size=338&ext=jpg&uid=A&ga=GA1.2.1544956828.1593162234",
+      "location": "Nabeul",
+      "box": "Carton",
+      "quantity": "17",
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
+    },
+    {
+      "id": 5,
+      "name": "Porte monnaie",
+      "reference": "PM50",
+      "type": "Wallet",
+      "collection": "Wallet",
+      "brand": "Lital",
+      "prduct_status": "Prototype",
+      "mesures": "25X125",
+      "color": "black",
+      "picture": "https://img.freepik.com/free-photo/accessory-fashion-shopping-woman-purse_1203-6480.jpg?size=626&ext=jpg&uid=A&ga=GA1.2.1544956828.1593162234",
+      "location": "Soussa",
+      "box": "Carton",
+      "quantity": "5",
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
+    },
+    {
+      "id": 6,
+      "name": "Sac à dos",
+      "reference": "S10",
+      "type": "Sac à dos",
+      "collection": "Rentré 2020",
+      "brand": "Lital-N",
+      "prduct_status": "Production",
+      "mesures": "25X125",
+      "color": "Blue",
+      "picture": "https://www.dealrags.com/img/uploads/pages/min/page_diesel_sac_a_dos_-_clous_en_metal_brillant_femme_image.jpeg",
+      "location": "Tunis",
+      "box": "Carton",
+      "quantity": "45",
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
+    }
+  ],
+  "history": [],
+  "user": [{
+      "first_name": "mariem",
+      "last_name": "Lital",
+      "user_name": "admin",
+      "password": "1234",
+      "email": "marwa@gmail.com",
+      "post": "admin",
+      "id": 5
+    },
+    {
+      "first_name": "Marwa",
+      "last_name": "azzabi",
+      "password": "1234",
+      "email": "marwa@gmail.com",
+      "post": "moderateur",
+      "id": 8,
+      "user_name": "moderateur"
+    }
+  ],
+  "session": [{
+      "userID": 5,
+      "post": "moderateur",
+      "id": 1
+    },
+    {
+      "userID": 5,
+      "post": "admin",
+      "id": 2
+    },
+    {
+      "userID": 8,
+      "post": "moderateur",
+      "id": 3
+    },
+    {
+      "userID": 5,
+      "post": "admin",
+      "id": 4
+    },
+    {
+      "userID": 5,
+      "post": "admin",
+      "id": 5
+    },
+    {
+      "userID": 8,
+      "post": "moderateur",
+      "id": 6
+    }
+  ]
+}

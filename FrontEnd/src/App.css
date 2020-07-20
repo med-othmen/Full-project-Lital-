@@ -1,0 +1,191 @@
+.fl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.spinner {
+  margin-left: 13cm;
+  margin-top: 6cm;
+}
+.sidebar {
+  font-family: "PT Sans Narrow", sans-serif;
+  background-color: rgba(192, 143, 86, 0.925);
+
+  height: auto;
+  letter-spacing: 2px;
+}
+.mainrow {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.switch {
+  height: 522px;
+  width: 1250px;
+  overflow: auto;
+
+  scroll-behavior: smooth;
+}
+.navlinksidebar {
+  color: white !important;
+  margin-top: 12px;
+}
+.navlinksidebar:hover {
+  opacity: 0.6;
+}
+.navlinksidebar:active {
+  background-color: black;
+}
+
+.fl {
+  display: flex;
+
+  padding: 5px;
+  margin: 15px;
+  align-items: center;
+}
+.cardproduct {
+  margin-bottom: 30px;
+
+  height: 340px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.groupbtn {
+  width: 230px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+}
+.btnEditProduct {
+  background-color: #5e514d !important;
+  color: white;
+  width: 115px;
+  padding: 5px;
+  font-size: 15px;
+  margin-left: 5px;
+  font-family: "PT Sans Narrow", sans-serif;
+  letter-spacing: 1px;
+}
+
+.cardimageproduct {
+  width: 80%;
+}
+.flt > input {
+  width: 250px;
+  height: 30px;
+  border: none;
+  padding-left: 5px;
+  font-size: 20px;
+  outline: none;
+}
+.flt > input:focus {
+  border-bottom: 1px solid gray;
+}
+.fa-search {
+  color: #9a8d4d;
+  margin-right: 10px;
+  margin-left: 355px;
+}
+.flt {
+  margin-left: 0px;
+}
+
+.btn-secondary {
+  background-color: #5e514d !important;
+}
+
+.form-edit-moderateur {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.form-edit-moderateur input {
+  width: 300px;
+  margin-bottom: 40px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  font-size: 17px;
+  color: #333333;
+}
+.firstinputmodaleditmod {
+  margin-top: 30px;
+}
+.titlemodaleditmod,
+.titlemodalajoutmod {
+  color: #9a8d4d;
+  letter-spacing: 1px;
+}
+
+.headOfTableMod {
+  background-color: #5e514d;
+  color: white;
+}
+th {
+  letter-spacing: 1px;
+}
+* {
+  font-family: "PT Sans Narrow", sans-serif;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.footer > p {
+  text-align: center;
+
+  border-top: 1px solid rgb(199, 199, 199);
+  padding-top: 10px;
+  padding-bottom: auto;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 18px;
+}
+.footer > p > i {
+  color: #f04747;
+}
+.footer {
+  height: 0;
+  background-color: green;
+}
+html {
+  padding: 0;
+}
+.insidecard {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+select {
+  background-color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  border-bottom: none;
+}
+.filterMod {
+  display: flex;
+  justify-content: space-around;
+}
+.cardbody {
+  margin-top: -18px;
+  align-items: center;
+}
+.body {
+  position: relative;
+  min-height: 100vh;
+}
+a {
+  width: 5cm;
+}
+body {
+  font-family: "PT Sans Narrow", sans-serif;
+  letter-spacing: 1px;
+}
+.disabled {
+  pointer-events: none;
+  text-decoration: line-through;
+}

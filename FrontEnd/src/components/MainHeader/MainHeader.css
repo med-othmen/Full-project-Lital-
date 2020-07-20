@@ -1,0 +1,31 @@
+.MainHeaderLogo {
+  width: 5cm;
+}
+.MainHeaderDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+.signoutbtn {
+  background-color: transparent;
+  border: none;
+}
+.signoutbtn:focus {
+  outline: none;
+}
+.signoutbtn:active {
+  color: #9a8d4d;
+}
+
+.fa-sign-out-alt {
+  color: #333;
+  font-size: 22px;
+  padding-left: 10px;
+}
+.fa-sign-out-alt:active {
+  color: #9a8d4d;
+}
+.signoutdiv {
+  display: flex;
+}
